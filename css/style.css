@@ -1,0 +1,149 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body,
+html {
+	height: 100%;
+	font-family: Arial;
+    line-height: 1.5;
+}
+.parallax{
+	width: 100%;
+	height: 100%;
+	background-attachment:fixed;
+	background-size:cover;
+	background-position:50% 0;
+	position:relative;
+}
+.div1{
+    width: 100%;
+    height: 130%;
+    background-image: url(../img/background-img.jpeg);
+    border: 2px solid blue;
+}
+.titulo{
+    color: #FFFFFF;
+    text-align: center;
+	font-family: Arial;
+    font-size: 45px;
+}
+.div-form {
+	width: 50%;
+	height: 75%;
+	border-radius: 12px;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin: 7% 0% 0% 10%;
+    padding: 2%;
+}
+.titulo-form{
+    color: #FFFFFF;
+	font-family: Arial;
+    font-size: 30px;
+    margin-bottom: 5%;
+}
+.text-form{
+    color: #FFFFFF;
+	font-family: Arial;
+    font-size: 20px;
+    margin: 2.5% 0% 0% 0%
+}
+#nome{
+    width: 50%;
+    height: 25px;
+    border-radius: 8px;
+    font-size: 15px;
+}
+#sobrenome{
+    width: 50%;
+    height: 25px;
+    border-radius: 8px;
+    font-size: 15px;
+}
+#email{
+    width: 50%;
+    height: 25px;
+    border-radius: 8px;
+    font-size: 15px;
+}
+#ddi{
+    width:7%;
+    height:29px;
+    border-radius: 8px;
+    font-size: 15px;
+}
+#ddd{
+    width: 7%;
+    height: 25px;
+    border-radius: 8px;
+    font-size: 15px;
+}
+#numero{
+    width: 20%;
+    height: 25px;
+    border-radius: 8px;
+    font-size: 15px;
+}
+#caixa-mensagem{
+    border-radius: 10px;
+    margin-bottom: 8%;
+}
+.botao-enviar{
+	background: #FFFFFF;
+	color: #000000;
+	border: 1px solid #000000;
+	border-radius: 10px;
+	display: inline-block;
+	cursor: pointer;
+	font-family: Arial;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 10px 25px;
+    transition: all 0.7s ease;
+}
+.botao-enviar:hover{
+	background: #000000;
+	color: #FFFFFF;
+	border: 1px solid #000000;
+	border-radius: 10px;
+	display: inline-block;
+	cursor: pointer;
+	font-family: Arial;
+	font-size: 20px;
+	font-weight: bold;
+    padding: 10px 50px;
+    transition: all 1.0s ease;
+}
+.botao-limpar{
+	background: #FFFFFF;
+	color: #000000;
+	border: 1px solid #000000;
+	border-radius: 10px;
+	display: inline-block;
+	cursor: pointer;
+	font-family: Arial;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 10px 25px;
+    transition: all 0.7s ease;
+}
+.botao-limpar:hover{
+	background: #000000;
+	color: #FFFFFF;
+	border: 1px solid #000000;
+	border-radius: 10px;
+	display: inline-block;
+	cursor: pointer;
+	font-family: Arial;
+	font-size: 20px;
+	font-weight: bold;
+    padding: 10px 50px;
+    transition: all 1.0s ease; 
+}
+.div2{
+    width: 100%;
+    height: 50%;
+    background-image: url(../img/background-img.jpeg);
+    border: 2px solid red;
+}
+
