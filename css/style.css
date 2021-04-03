@@ -24,10 +24,9 @@ html {
 
 .div1{
     width: 100%;
-    height: 1050px;
+    height: 1150px;
     padding: 2% 0% 0% 0%;
     background-image: url(../img/background-img.jpeg);
-    border: 2px solid blue;
 }
 .titulo{
     color: #FFFFFF;
@@ -35,6 +34,8 @@ html {
 	font-family: Arial;
     font-size: 45px;
     font-weight: bold;
+    margin-top: 2px;
+    
 }
 .div-form {
 	width: 50%;
@@ -44,7 +45,7 @@ html {
     margin: 7% 0% 0% 10%;
     padding: 2%;
     display: inline-block;
-    border: 2px solid yellow;
+    border: 1px solid #FFFFFF;
 }
 .titulo-form{
     color: #FFFFFF;
@@ -154,46 +155,52 @@ html {
     transition: all 1.0s ease; 
     float: right;
 }
-
-
-
 .div2{
     width: 100%;
-    height: 525px;
+    height: 600px;
     background-image: url(../img/background-img.jpeg);
-    border: 2px solid red;
 }
 #linha{
-    width: 70%;
     background: #FFFFFF;
-    margin-top: 5%;
+    width: 70%;
     margin-left: 15%;
+    margin-top: 8%;
 }
 .div-mais-info{
     width: 50%;
     height: 50px;
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.6);
-    border: 1px solid #FFFFFF;
+    border: 2px solid #FFFFFF;
     border-radius: 12px;
     text-align: center;
+    margin-top: 8%;
+    margin-left: 25%;
+}
+.div-info{
+    width: 50%;
+    height: 250px;
+    padding: 0% 0% 0% 2%;
     margin-top: 5%;
     margin-left: 25%;
-    border: 2px solid green;
 }
-.lista{
+.redes-sociais{
+    margin-left: 10%;
+}
+.img-redes-sociais{
+    width: 25px;
+    height: 25px;
+    margin-right: 1%;
+}
+#link-redes-sociais{
+    margin-right: 20px;
     color: #FFFFFF;
-    font-size: 20px;
-    font-weight: bold;
-    text-align: left;
-    margin-top: 100px;
 }
 .div-end{
     width: 100%;
     height: 7%;
     display: inline-block;
     background: #000000;
-    border: 1px solid aqua;
 }
 .text-div-end{
     color: #86868b;
