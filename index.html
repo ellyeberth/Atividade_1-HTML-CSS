@@ -27,9 +27,6 @@
                 <p class="text-form">Sobrenome</p>
                 <input name="sobrenome" type="text" id="sobrenome" placeholder=" Silva" maxlength="35"/>
 
-                <p class="text-form">E-mail <font color="ff565c">*</font></p>
-                <input name="email" type="text" id="email" maxlength="100" placeholder=" usuario@email.com" required/>
-
                 <p class="text-form">Telefone <font color="ff565c">*</font></p>
                 <select name="ddi" id="ddi" required class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
                     <option selected>DDI</option>
@@ -41,10 +38,30 @@
                     <option value="marrocos">+212</option> 
                 </select>
                 <input type="number" id="ddd" placeholder=" DDD" required/>
-                <input type="number" id="numero" placeholder=" 98888-8888" required/>
+                <input type="number" id="telefone" placeholder=" 98888-8888" required/>
+
+                <p class="text-form">Endereço <font color="ff565c">*</font></p>
+                <input name="rua" type="text" id="rua" maxlength="50" placeholder=" Rua" required/>
+                <input name="n" type="number" id="n" maxlength="4" placeholder=" Nº" required/>
+                <input name="bairro" type="text" id="bairro" maxlength="25" placeholder=" Bairro" required/>
+                <input name="cep" type="number" id="cep" maxlength="8" placeholder=" CEP" required/>
+                <input name="cidade" type="text" id="cidade" maxlength="25" placeholder=" Cidade" required/>
+                <select name="uf" id="uf" required class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                        <option selected>Estado</option>
+                        <option value="acre">AC</option>
+                        <option value="bahia">BA</option>
+                        <option value="ceara">CE</option>
+                        <option value="distritofederal">DF</option>
+                        <option value="saopaulo">SP</option>
+                        <option value="tocantins">TO</option> 
+                    </select>
+
+
+                <p class="text-form">E-mail <font color="ff565c">*</font></p>
+                <input name="email" type="text" id="email" maxlength="100" placeholder=" usuario@email.com" required/>
 
                 <p type="text" class="text-form">Mensagem <font color="ff565c">*</font></p>
-                <textarea id="caixa-mensagem" rows="12" cols="80" required></textarea>
+                <textarea id="caixa-mensagem" rows="12" cols="100" required></textarea>
                 
                 <button class="botao-limpar" type="reset" value="limpar">Limpar</button>
 

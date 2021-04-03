@@ -24,7 +24,7 @@ html {
 
 .div1{
     width: 100%;
-    height: 1150px;
+    height: 1300px;
     padding: 2% 0% 0% 0%;
     background-image: url(../img/background-img.jpeg);
 }
@@ -39,7 +39,7 @@ html {
 }
 .div-form {
 	width: 50%;
-	height: 850px;
+	height: 1000px;
 	border-radius: 12px;
     background-color: rgba(0, 0, 0, 0.6);
     margin: 7% 0% 0% 10%;
@@ -90,15 +90,55 @@ html {
     border-radius: 8px;
     font-size: 15px;
 }
-#numero{
+#telefone{
     width: 20%;
     height: 40px;
     border-radius: 8px;
     font-size: 15px;
 }
+#rua{
+    width: 50%;
+    height: 40px;
+    border-radius: 8px;
+    font-size: 15px;
+}
+#n{
+    width: 10%;
+    height: 40px;
+    border-radius: 8px;
+    font-size: 15px;
+}
+#bairro{
+    width: 38%;
+    height: 40px;
+    border-radius: 8px;
+    font-size: 15px;
+}
+#cep{
+    width: 20%;
+    height: 40px;
+    border-radius: 8px;
+    font-size: 15px;
+    margin-top: 2%;
+}
+#cidade{
+    width: 50%;
+    height: 40px;
+    border-radius: 8px;
+    font-size: 15px;
+    margin-top: 2%;
+}
+#uf{
+    width: 20%;
+    height: 40px;
+    border-radius: 8px;
+    font-size: 15px;
+    margin-top: 2%;
+}
+
 #caixa-mensagem{
     border-radius: 10px;
-    margin-bottom: 8%;
+    margin-bottom: 4%;
 }
 .botao-limpar{
 	background: #FFFFFF;
